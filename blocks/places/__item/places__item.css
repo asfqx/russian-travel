@@ -1,0 +1,24 @@
+.places__item {
+    display: grid;
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 456px);
+    width: 100%;
+    gap: 40px 48px;
+    margin: 0;
+    padding-bottom: max(
+        50px,
+        min(
+            80px,
+            calc(50px + 30 * ((100vw - 320px) / 704))
+        )
+    );
+}
+
+.places__item:last-of-type {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .places__item {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,23 @@
+.intro {
+    display: flex;
+    padding-top: max(
+        64px,
+        min(
+            92px,
+            calc(64px + 28 * ((100vw - 320px) / 704))
+        )
+    );
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    width: max(
+        288px, 
+        min(
+            984px,
+            calc(288px + 696 * ((100vw - 320px) / 960))
+        )
+    );
+    margin: 0 auto;
+}
+
+

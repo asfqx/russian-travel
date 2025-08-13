@@ -1,0 +1,20 @@
+.intro__title {
+    font-size: max(
+        32px,
+        min(
+            54px,
+            calc(32px + 22 * ((100vw - 320px) / 448))
+        )
+    );
+    font-weight: 900;
+    line-height: max(
+        35px,
+        min(
+            58px,
+            calc(35px + 23 * ((100vw - 320px) / 448))
+        )
+    );
+    margin: 0;
+    padding-bottom: 40px;
+    width: 100%;
+}

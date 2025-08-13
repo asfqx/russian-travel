@@ -1,0 +1,10 @@
+.lead__image {
+    padding-top: max(
+        40px,
+        min(
+            56px,
+            calc(40px + 16 * ((100vw - 320px) / 448))
+        )
+    );
+    width: 100%;
+}

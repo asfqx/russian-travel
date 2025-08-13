@@ -1,0 +1,32 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    width: max(
+        1024px,
+        min(
+            1184px,
+            calc(1024px + 160 * ((100vw - 1024px) / 256))
+        )
+    );
+    margin-top: max(
+        64px,
+        min(
+            92px,
+            calc(64px + 28 * ((100vw - 320px) / 704))
+        )
+    );
+    background-image: url('/images/cover__background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: calc(100vw * 5 / 8);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100vw;
+    }
+}

@@ -1,0 +1,9 @@
+.places__paragraph-container {
+    margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .places__paragraph-container{
+        padding-left: 16px;
+    }
+}

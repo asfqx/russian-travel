@@ -1,0 +1,8 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: 28px auto 24px auto;
+    min-width: 320px;
+    max-width: 1280px;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.places__title {
+    margin: 0;
+    width: 100%;
+    font-size: max(
+        42px,
+        min(
+            72px,
+            calc(42px + 30 * ((100vw - 768px) / 256))
+        )
+    );
+    align-self: end;
+    line-height: max(
+        35px,
+        min(
+            76px,
+            calc(35px + 41 * ((100vw - 320px) / 704))
+        )
+    );
+}
+
+@media screen and (max-width: 760px) {
+    .places__title{
+        padding-left: 16px;
+    }
+}

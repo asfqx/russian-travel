@@ -1,0 +1,7 @@
+.footer__menu-item {
+    transition: opacity .2 ease-in-out;
+}
+
+.footer__menu-item:hover {
+    opacity: .7;
+}

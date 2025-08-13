@@ -1,0 +1,10 @@
+.places__link {
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: opacity .2s ease-in-out;
+}
+
+.places__link:hover {
+    opacity: .7;
+}

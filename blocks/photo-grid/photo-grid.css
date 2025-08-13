@@ -1,0 +1,20 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(263px, 1fr));
+    width: max(
+        288px, 
+        min(
+            1184px,
+            calc(288px + 896 * ((100vw - 320px) / 960))
+        )
+    );
+    padding-top: max(
+        64px,
+        min(
+            92px,
+            calc(64px + 28 * ((100vw - 320px) / 704))
+        )
+    );
+    gap: 16px;
+    margin: 0 auto;
+}
