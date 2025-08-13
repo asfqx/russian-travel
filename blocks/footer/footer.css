@@ -12,12 +12,12 @@
         720px,
         min(
             1184px,
-            calc(720px + 364 * ((100vw - 768px) / 432))
+            calc(720px + 464 * ((100vw - 768px) / 432))
         )
     );
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:740px) {
     .footer {
         flex-direction: column;
         align-self: flex-start;

@@ -4,13 +4,7 @@
     justify-content: center; 
     align-items: center;
     position: relative;
-    width: max(
-        1024px,
-        min(
-            1184px,
-            calc(1024px + 160 * ((100vw - 1024px) / 256))
-        )
-    );
+    max-width: 1184px;
     margin-top: max(
         64px,
         min(
@@ -27,6 +21,6 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        width: 100vw;
+        width: 100%;
     }
 }
