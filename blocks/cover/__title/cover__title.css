@@ -18,3 +18,7 @@
         )
     );
 }
+
+.cover__title:hover ~ .cover__overlay {
+    opacity: .8;
+}
